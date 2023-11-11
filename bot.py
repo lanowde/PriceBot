@@ -170,7 +170,7 @@ async def _cb_cheap_num(e):
     buttons = [
         [Button.inline(i, data=f"buy_num_1_{i.replace(' ', '_')}")] for i, _ in numbers
     ]
-    buttons = buttons[:48]
+    buttons = buttons[:98]
     owner = await e.client.get_input_entity(os.getenv("OWNER_USERNAME"))
     buttons.append(
         [
@@ -195,7 +195,7 @@ async def _cb_expensive_num(e):
     buttons = [
         [Button.inline(i, data=f"buy_num_2_{i.replace(' ', '_')}")] for i, _ in numbers
     ]
-    buttons = buttons[:48]
+    buttons = buttons[:98]
     owner = await e.client.get_input_entity(os.getenv("OWNER_USERNAME"))
     buttons.append(
         [
