@@ -1,0 +1,2 @@
+https://github.com/lanowde/telethon/archive/layer166.zip
+https://github.com/lanowde/telethon-patch/archive/main.zip

@@ -1,0 +1,40 @@
+{
+    "name": "Price Bot",
+    "description": "Price Bot for private use."
+    "logo": "https://en.m.wikipedia.org/wiki/File:Heroku_logo.svg",
+    "keywords": [
+        "Telethon",
+        "python",
+    ],
+    "repository": "https://github.com/lanowde/PriceBot",
+    "website": "https://t.me/moiusrname",
+    "success_url": "",
+    "env": {
+        "API_ID": {
+            "description": "Your API ID, from my.telegram.org.",
+            "value": "", 
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your API HASH, from my.telegram.org.",
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token for your bot; to be obtained from @Botfather on Telegram.",
+            "value": "",
+            "required": true
+        },
+        "OWNER_USERNAME": {
+            "description": "Username of Bot Owner (without '@'). Note: It must be a Username and not ID.",
+            "value": "",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
