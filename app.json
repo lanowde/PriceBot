@@ -1,14 +1,15 @@
 {
     "name": "Price Bot",
     "description": "Price Bot for private use."
-    "logo": "https://en.m.wikipedia.org/wiki/File:Heroku_logo.svg",
+    "logo": "https://camo.githubusercontent.com/065f065d12a6ba6b2cfcff767aaafd438a7ed5ae615e3ac39051c022cebaa698/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6865726f6b752d312e737667",
     "keywords": [
         "Telethon",
-        "python",
+        "python"
     ],
     "repository": "https://github.com/lanowde/PriceBot",
     "website": "https://t.me/moiusrname",
-    "success_url": "",
+    "success_url": "https://t.me/moiusrname",
+    "stack": "heroku-22",
     "env": {
         "API_ID": {
             "description": "Your API ID, from my.telegram.org.",
